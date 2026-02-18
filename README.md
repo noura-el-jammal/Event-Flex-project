@@ -18,7 +18,7 @@ User-friendly interface
 
 ### Installation
 #### Clone the repository
-git clone https/github.com/noura8887777/Event-Flex-project
+git clone https://github.com/noura8887777/Event-Flex-project
 cd eventflex
 
 #### Backend (Laravel)
