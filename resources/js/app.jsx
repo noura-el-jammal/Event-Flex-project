@@ -2,15 +2,15 @@ import './bootstrap';
 import '../css/app.css';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-control-geocoder/dist/Control.Geocoder.css';
-import { createInertiaApp } from '@inertiajs/react';
+
+import { createInertiaApp, Head, router } from '@inertiajs/react';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { createRoot } from 'react-dom/client';
 import React, { useState, useEffect } from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
-import { Head, router } from '@inertiajs/react';
 import axios from 'axios';
 import { ChatBubbleLeftIcon } from '@heroicons/react/24/outline';
-import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
+import { route } from 'ziggy-js';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
 
