@@ -36,6 +36,7 @@
         "pinia": "^3.0.3",
         "pusher-js": "^8.4.0",
         "react-hot-toast": "^2.5.2",
-        "tailwind-merge": "^3.3.0"
+        "tailwind-merge": "^3.3.0",
+        "ziggy-js": "^2.6.4"
     }
 }
